@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu';
+}
+
+/* Global */
+
+.container{
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+h2, .listHeader{
+  color: #0080ff;
+}
+
+
+
+/* Header */
+.title h1, .title p{
+  font-family: 'Pattaya', cursive;
+  color: #fff;
+  text-align: center;
+}
+
+.title h1{
+  font-size: 3vw;
+}
+
+.title p{
+  font-size: 2vw;
+}
+
+.title #name{
+  font-family: "Lobster", cursive;
+  font-size: 6vw;
+}
+
+#headerContainer{
+  max-height: 100vh;
+  background: url("../images/Javi.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center top;
+}
+
+.title{
+  position: relative;
+  margin-top: 25%;
+}
+
+/* Nav */
+nav{
+  margin:0;
+  width: 100%;
+  font-size: 3vw;
+  background-color: #66b3ff;
+}
+
+nav ul{
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+  padding: 0 1em;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* Certifications */
+#certs{
+  grid-row: 2;
+}
+
+#certs .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#languages, #lyndaCerts, #otherCerts{
+  grid-row: 2;
+  text-align: center;
+}
+
+#languages, #lyndaCerts{
+  border-right: 1px solid #000;
+}
+
+#certs ul .listHeader{
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#certs ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#certs ul li{
+  line-height: 25px;
+}
+
+#certs img{
+  max-height: 7em;
+  max-width: 7em;
+  align-self: center;
+  justify-self: center;
+}
+
+/* Summary */
+#summary img, #recTitlePic{
+  max-width: 20%;
+  float: left;
+  border-radius: 5em;
+  margin: 1em;
+}
+
+#summary article{
+  text-align: justify;
+  clear: both;
+  padding: 0.5em;
+  border: 1px solid #66b3ff;
+  border-radius: 1em;
+}
+
+/* Recommendations */
+
+#recommendations .container #recGrid{
+  display: grid;
+  grid-template-columns: 20% 78%;
+  grid-gap: 0.2em;
+  margin-bottom: 5em;
+  clear: both;
+}
+
+#recommendations .block{
+  border: 1px solid #66b3ff;
+  border-radius: 1em;
+  padding: 0 0.5em;
+  margin-left: 3px;
+}
+
+.profilePic{
+  border: 2px solid #66b3ff;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 970px) {
+
+  #headerContainer{
+
+    background-size: 100%;
+    background-position: relative;
+  }
+
+  .container{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+  }
+
+}
