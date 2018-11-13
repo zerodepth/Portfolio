@@ -27,9 +27,6 @@ h2, .listHeader{
 }
 
 /* Header */
-header{
-  color: #000;
-}
 
 #headerContainer{
   height: 95vh;
