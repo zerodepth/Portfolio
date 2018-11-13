@@ -24,10 +24,47 @@ h2, .listHeader{
 
 
 /* Header */
+body{
+font-family: "Ubuntu", sans-serif;
+font-weight: 400;
+font-size: 1.2em;
+}
+
+h2, .listHeader{
+  color: #0080ff;
+}
+
+
+/* Header */
+header{
+  color: #000;
+}
+
+#headerContainer{
+  height: 95vh;
+  background: url("../images/Javi.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+#headerContainer .container{
+  height: 100%;
+  width: 100%;
+}
+
+.title{
+  position: relative;
+  top: 40%;
+}
+
+.title h1, .title p{
+text-align: center;
+
+}
+
 .title h1, .title p{
   font-family: 'Pattaya', cursive;
   color: #fff;
-  text-align: center;
 }
 
 .title h1{
@@ -41,18 +78,6 @@ h2, .listHeader{
 .title #name{
   font-family: "Lobster", cursive;
   font-size: 6vw;
-}
-
-#headerContainer{
-  max-height: 100vh;
-  background: url("../images/Javi.jpg") no-repeat;
-  background-size: 100%;
-  background-position: center top;
-}
-
-.title{
-  position: relative;
-  margin-top: 25%;
 }
 
 /* Nav */
